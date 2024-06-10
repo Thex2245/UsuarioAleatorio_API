@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+html, body {
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+.bi:hover {
+    cursor: pointer;
+}
+
+h2 {
+    top: 20px;
+    position: absolute;
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #cc1414;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffff;
+    margin: 0;
+}
+
+.aviso {
+    z-index: 3;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    padding: 20px;
+    border: 0.1px solid #cccccc1f;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tela-aviso {
+    background-color: #000000a6;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.tela {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.insta {
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+}
+
+/* 1 - Conteiner */
+.conteiner {
+    width: 380px;
+    height: 490px;
+    background-color: #000000;
+    border-top: 0.1px solid #cccccc1f;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/* 2 - Conteiner Top */
+.conteiner-top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* 3 - Profile photo and Username */
+.photo-username {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 4 - Profile photo */
+.photo-profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+/* 5 - Username */
+h1 {
+    width: auto;
+    height: 15px;
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffff;
+    margin: 0;
+}
+
+/* 6 - {time} minutes ago */
+/* 7 - Follow */
+/* 8 - More icon */
+.bi {
+    width: auto;
+    height: 30px;
+    font-size: 30px;
+    color: #ffff;
+}
+
+/* 9 - Content Post */
+.conteiner-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1px solid #cccccc1f;
+    border-radius: 5px;
+}
+
+/* 10 - Photo Posted */
+.photo-post {
+    width: 320px;
+    height: 320px;
+}
+
+/* 11 - Conteiner Bottom */
+.conteiner-bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+}
+
+/* 12 - Left Side */
+.left-side-icons {
+    display: flex;
+    gap: 10px;
+}
+
+/* 13 - Heart Icon */
+/* 14 - Comments Icon */
+/* 15 - Send Icon */
+
+/* 16 - Description */
+.description {
+    width: 100%;
+    height: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
